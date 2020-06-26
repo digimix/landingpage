@@ -1,10 +1,10 @@
 /*
 *
 * =================================================================
-* SKIN 
+* SKIN
 * =================================================================
 *
-* Populate this file with the CSS of your custom design. 
+* Populate this file with the CSS of your custom design.
 * Include this file into the <head> area of your pages, after the style.css and any other css file.
 *
 */
@@ -23,7 +23,11 @@
     font-style: normal;
 }
 
-/* 
+.section-navy {
+  background: #001D5f;
+}
+
+/*
 
 # ANIMATIONS E GLOBAL
 ===================================================================
@@ -92,7 +96,7 @@
     border-radius: 3px;
 }
 
-/* 
+/*
 
 # COLORS
 ===================================================================
@@ -130,7 +134,9 @@ body, p, input, textarea, ::placeholder, .tab-box.tab-vertical > .tab-nav li:not
 }
 
 body > nav.light:not(.menu-transparent), nav.light.menu-transparent.scroll-menu, footer {
-    background-color: rgb(55, 81, 126);
+    /* background-color: rgb(55, 81, 126); */
+    /* background: #001D5f; */
+    background: #001d5fa8;
 }
 
 .boxed-area.light {
@@ -230,7 +236,7 @@ nav.light .menu-cnt a.btn:not(.btn-border) {
 
 /*
 
-# CUSTOM 
+# CUSTOM
 ===================================================================
 
 */
@@ -2553,7 +2559,7 @@ Small devices (landscape phones, less than 768px)
 */
 
 @media (max-width: 767.98px) {
- 
+
     .table-full-sm td, .table-full-sm th {
         padding: 30px 0 !important;
     }
