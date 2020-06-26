@@ -115,6 +115,18 @@
 ===================================================================
 
 */
+.btn.btn-red {
+  background: #D8211A;
+  background-color: #D8211A;
+  border-color: #D8211A;
+}
+
+.btn.btn-red:not(.btn-border):hover {
+  background: #A41D24;
+  background-color: #A41D24;
+  border-color: #A41D24;
+}
+
 .light .dropdown > ul > li:not(:hover) > a, .dropdown > ul > li a, nav:not(.light) a.btn-login.btn-border:hover {
     color: rgb(68, 68, 68) !important;
 }
