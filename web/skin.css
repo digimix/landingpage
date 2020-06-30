@@ -2539,8 +2539,20 @@ Medium devices (tablets, less than 992px)
     }
 
     body > nav .menu-brand, .menu-subtitle .menu-brand, body > nav.menu-icon .menu-brand {
-        height: 50px;
+        height: 110px;
         padding: 10px 0;
+    }
+
+    body > nav.light.menu-transparent.scroll-menu {
+      height: 120px;
+    }
+
+    nav.light.menu-transparent.scroll-menu .menu-btn:before {
+      color: rgb(55, 81, 126);
+    }
+
+    body > nav.light.menu-transparent.scroll-menu .menu-brand {
+      height: 110px;
     }
 
     .menu-fixed:not(.menu-transparent) + header, .menu-fixed:not(.menu-transparent) + main {
