@@ -161,7 +161,12 @@ body, p, input, textarea, ::placeholder, .tab-box.tab-vertical > .tab-nav li:not
 body > nav.light:not(.menu-transparent), nav.light.menu-transparent.scroll-menu, footer {
     /* background-color: rgb(55, 81, 126); */
     /* background: #001D5f; */
-    background: #001d5fa8;
+    /* background: #001d5fa8; */
+    background: #fffffff0;
+}
+
+nav.light.menu-transparent.scroll-menu .menu-cnt > ul > li > a {
+  color: rgb(88, 119, 144);
 }
 
 .boxed-area.light {
@@ -1229,8 +1234,14 @@ body > nav.menu-icon .menu-brand {
 }
 
 body > nav .menu-brand {
-    height: 60px;
+    /* height: 60px; */
+    height: 140px;
     padding: 15px 0;
+    transition: all.5s;
+}
+
+body > nav.light.menu-transparent.scroll-menu .menu-brand {
+  height: 110px;
 }
 
 .menu-right {
