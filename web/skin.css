@@ -2420,6 +2420,10 @@ Medium devices (tablets, less than 992px)
 */
 
 @media (max-width: 991.98px) {
+    hr.space-lg {
+      height: 50px;
+    }
+
     body > header .breadcrumb {
         justify-content: flex-start;
         position: static;
